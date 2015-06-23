@@ -1,0 +1,9 @@
+form
+    input(type='text' ng-model='item.name' placeholder='New item...')
+    input(type='text' ng-model='item.price' placeholder='Price...')
+    button(ng-click='addItem(item)') Submit!
+    
+//- .div
+//-     h2 Items for sale
+//-     .div(ng-repeat='item in items')
+//-         {{item.name}} {{item.price}}

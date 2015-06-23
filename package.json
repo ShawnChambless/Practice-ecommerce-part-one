@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-part-one",
+  "version": "1.0.0",
+  "description": "DevMountain e-commerce project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawnChambless/ecommerce-part-one.git"
+  },
+  "author": "Shawn Chambless",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawnChambless/ecommerce-part-one/issues"
+  },
+  "homepage": "https://github.com/ShawnChambless/ecommerce-part-one#readme",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.0",
+    "mongojs": "^1.0.1"
+  }
+}
